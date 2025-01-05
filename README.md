@@ -49,3 +49,4 @@ git commit -m "Your commit message"
 ```Bash
 git push origin main
 ```
+**Create a `.env` file in the root directory and add our Pinecone credentials as follows:**
