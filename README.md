@@ -50,3 +50,23 @@ git commit -m "Your commit message"
 git push origin main
 ```
 **Create a `.env` file in the root directory and add our Pinecone credentials as follows:**
+```Bash
+PINECONE_API_KEY = "***********************************"
+```
+
+**Download the quantized Llama2 model from the `Hugging Face` link provided in the model folder and place it in the model directory:**
+*Download the Llama 2 Model:*
+```Bash
+llama-2-7b-chat.ggmlv3.q4_0.bin
+```
+*From the following link:*
+```Bash
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+```
+
+
+
+*Or direct download link:*
+```Bash
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q4_0.bin
+```
