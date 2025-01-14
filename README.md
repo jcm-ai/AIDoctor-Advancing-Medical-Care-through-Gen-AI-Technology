@@ -64,6 +64,7 @@ llama-2-7b-chat.ggmlv3.q4_0.bin
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 ```
 
+![huggingface1](https://github.com/user-attachments/assets/7a7924d0-d792-4aea-89cf-e38d32f6e447)
 
 
 *Or direct download link:*
