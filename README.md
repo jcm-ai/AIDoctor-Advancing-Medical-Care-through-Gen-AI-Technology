@@ -71,3 +71,7 @@ https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 ```Bash
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q4_0.bin
 ```
+
+![huggingface2](https://github.com/user-attachments/assets/bbe60d2e-c2ed-4c07-b437-27c82b7f2da9)
+
+
