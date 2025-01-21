@@ -57,7 +57,7 @@
 					const str_time = hour+":"+minute;
 					var rawText = $("#text").val();
 
-					var userHtml = '<div class="d-flex justify-content-end mb-4"><div class="msg_cotainer_send">' + rawText + '<span class="msg_time_send">'+ str_time + '</span></div><div class="img_cont_msg"><img src="https://i.ibb.co/d5b84Xw/Untitled-design.png" class="rounded-circle user_img_msg"></div></div>';
+					var userHtml = '<div class="d-flex justify-content-end mb-4"><div class="msg_cotainer_send">' + rawText + '<span class="msg_time_send">'+ str_time + '</span></div><div class="img_cont_msg"><img src="https://static.vecteezy.com/system/resources/thumbnails/028/335/510/small_2x/typing-keyboard-3d-hand-gesture-icon-png.png" class="rounded-circle user_img_msg"></div></div>';
 					
 					$("#text").val("");
 					$("#messageFormeight").append(userHtml);
@@ -69,7 +69,7 @@
 						type: "POST",
 						url: "/get",
 					}).done(function(data) {
-						var botHtml = '<div class="d-flex justify-content-start mb-4"><div class="img_cont_msg"><img src="https://cdn-icons-png.flaticon.com/512/387/387569.png" class="rounded-circle user_img_msg"></div><div class="msg_cotainer">' + data + '<span class="msg_time">' + str_time + '</span></div></div>';
+						var botHtml = '<div class="d-flex justify-content-start mb-4"><div class="img_cont_msg"><img src="https://png.pngtree.com/png-vector/20240721/ourmid/pngtree-3d-doctor-cartoon-character-png-image_13168714.png" class="rounded-circle user_img_msg"></div><div class="msg_cotainer">' + data + '<span class="msg_time">' + str_time + '</span></div></div>';
 						$("#messageFormeight").append($.parseHTML(botHtml));
 					});
 					event.preventDefault();
