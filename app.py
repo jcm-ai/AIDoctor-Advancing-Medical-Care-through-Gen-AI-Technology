@@ -4,6 +4,7 @@ from flask import Flask, request, jsonify, render_template
 from src.helper import download_hugging_face_embeddings
 from src.prompt import *
 from pinecone.grpc import PineconeGRPC as Pinecone
+from pinecone import ServerlessSpec
 from langchain_pinecone import PineconeVectorStore
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.llms import CTransformers
@@ -26,7 +27,7 @@ embeddings = download_hugging_face_embeddings()
 index_name = "aidoctor"
 
 # Load Existing index and embed each chunk into the Pinecone index
-docsearch = PineconeVectorStore.from_existing_index(index_name, embeddings)
+docsearch = PineconeVectorStore.from_existing_index(index_name=index_name, embedding=embeddings)
 
 # creating a retriever to retrieve similar documents based on the embeddings
 retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":3})
