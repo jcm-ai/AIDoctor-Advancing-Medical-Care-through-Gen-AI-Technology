@@ -75,9 +75,15 @@ https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.g
 ![huggingface2](https://github.com/user-attachments/assets/bbe60d2e-c2ed-4c07-b437-27c82b7f2da9)
 
 
+*Run the following command to execute `Pinecone vector database`:*
+```Bash
+python store_index.py
+```
+
 ### Techstack Used:
 - Python
 - Pinecone
 - LangChain
 - Meta Llama2
 - Flask
+
