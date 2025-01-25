@@ -84,6 +84,10 @@ python store_index.py
 ```Bash
 python app.py
 ```
+*Now, open up:*
+```Bash
+localhost:8080
+```
 
 ### Techstack Used:
 - Python
