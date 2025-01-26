@@ -1,5 +1,11 @@
 # AIDoctor: Advancing Medical Care through Gen AI Technology
 
+**Final outcome of this project:**
+
+![AIDoctor](https://github.com/user-attachments/assets/876f6fd3-d526-4874-a344-6ce3f3e919d4)
+
+
+
 ### How to run?
 
 **STEPS:**
