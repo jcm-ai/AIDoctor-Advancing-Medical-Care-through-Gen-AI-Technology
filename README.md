@@ -96,3 +96,4 @@ localhost:8080
 - Meta Llama2
 - Flask
 
+## Automating Amazon Web Services(AWS) CI/CD Deployments through GitHub Actions
