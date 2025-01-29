@@ -103,3 +103,5 @@ localhost:8080
 - Flask
 
 ## Automating Amazon Web Services(AWS) CI/CD Deployments through GitHub Actions
+
+#### 1. Login to AWS Console.
