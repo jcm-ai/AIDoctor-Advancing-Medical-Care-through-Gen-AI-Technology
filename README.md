@@ -105,3 +105,22 @@ localhost:8080
 ## Automating Amazon Web Services(AWS) CI/CD Deployments through GitHub Actions
 
 #### 1. Login to AWS Console.
+#### 2. Create a new Identity and Access Management (IAM) user with programmatic access.
+
+**Policy:**
+
+1. AmazonEC2ContainerRegistryFullAccess
+2. AmazonEC2FullAccess
+
+*with specific access:*
+1. EC2 access : It is virtual machine
+2. ECR: Elastic Container Registry to save our Docker Image in AWS
+
+**Description: About the deployment**
+
+1. Build docker image of the source code
+2. Push the docker image to ECR (Elastic Container Registry)
+3. Create a new EC2 instance
+4. Run the docker image on the EC2 instance
+5. Deploy the docker image on the EC2 instance
+
