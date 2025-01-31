@@ -124,3 +124,8 @@ localhost:8080
 4. Run the docker image on the EC2 instance
 5. Deploy the docker image on the EC2 instance
 
+#### 3. Create ECR repo to store/save docker image.
+```Bash
+URI:
+```
+#### 4. Create EC2 machine (Ubuntu)
