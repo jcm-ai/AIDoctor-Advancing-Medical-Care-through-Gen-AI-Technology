@@ -129,3 +129,25 @@ localhost:8080
 URI:
 ```
 #### 4. Create EC2 machine (Ubuntu)
+#### 5. Open EC2 and Install Docker in EC2 Machine:
+*optinal:*
+```Bash
+sudo apt-get update -y
+```
+```Bash
+sudo apt-get upgrade
+```
+**Required:**
+
+```Bash
+curl -fsSL https://get.docker.com -o get-docker.sh
+```
+```Bash
+sudo sh get-docker.sh
+```
+```Bash
+sudo usermod -aG docker ubuntu
+```
+```Bash
+newgrp docker
+```
