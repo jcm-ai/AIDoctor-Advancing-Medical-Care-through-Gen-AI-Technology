@@ -155,3 +155,19 @@ newgrp docker
 ```Bash
 Settings>Actions>Runners>New self-hosted runner> choose os> then run command one by one
 ```
+#### 7. Setup GitHub secrets:
+```Bash
+Settings>Secrets and variables>Actions>New repository secret
+```
+
+```Bash
+AWS_ACCESS_KEY_ID = ***********************************
+
+AWS_SECRET_ACCESS_KEY = ***********************************
+
+AWS_REGION = us-east-1
+
+AWS_ECR_LOGIN_URI = 
+
+ECR_REPOSITORY_NAME = 
+```
