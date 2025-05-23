@@ -126,7 +126,7 @@ localhost:8080
 
 #### 3. Create ECR repo to store/save docker image.
 ```Bash
-URI:
+URI: 954976285001.dkr.ecr.ap-south-1.amazonaws.com/ai-doctor
 ```
 #### 4. Create EC2 machine (Ubuntu)
 #### 5. Open EC2 and Install Docker in EC2 Machine:
@@ -165,9 +165,9 @@ AWS_ACCESS_KEY_ID = ***********************************
 
 AWS_SECRET_ACCESS_KEY = ***********************************
 
-AWS_REGION = us-east-1
+AWS_REGION = ap-south-1
 
-AWS_ECR_LOGIN_URI = 
+AWS_ECR_LOGIN_URI = 954976285001.dkr.ecr.ap-south-1.amazonaws.com/
 
-ECR_REPOSITORY_NAME = 
+ECR_REPOSITORY_NAME = ai-doctor
 ```
