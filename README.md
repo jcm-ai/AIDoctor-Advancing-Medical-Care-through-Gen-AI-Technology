@@ -167,7 +167,5 @@ AWS_SECRET_ACCESS_KEY = ***********************************
 
 AWS_REGION = ap-south-1
 
-AWS_ECR_LOGIN_URI = 954976285001.dkr.ecr.ap-south-1.amazonaws.com/
-
-ECR_REPOSITORY_NAME = ai-doctor
+AWS_ECR_LOGIN_URI = ai-doctor
 ```
